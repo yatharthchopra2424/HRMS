@@ -1,0 +1,48 @@
+{
+  "name": "hrms-lite-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:analyze": "ANALYZE=true next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write \"**/*.{ts,tsx,json,css,md}\"",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.2.35",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5",
+    "axios": "^1.6.5",
+    "three": "^0.160.0",
+    "@react-three/fiber": "^8.15.13",
+    "@react-three/drei": "^9.93.0",
+    "react-hot-toast": "^2.4.1",
+    "lucide-react": "^0.309.0",
+    "date-fns": "^3.2.0",
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.45.4",
+    "recharts": "^2.10.3",
+    "framer-motion": "^11.0.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "^14.2.35",
+    "@types/three": "^0.160.0",
+    "prettier": "^3.1.1"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
