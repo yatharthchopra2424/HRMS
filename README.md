@@ -2,6 +2,7 @@
 **Done by:** Yatharth Chopra  
 **Email:** 2301420022@krmu.edu.in  
 **Contact:** 9810354459
+**Live Demo:** https://hrms-dashboard-lite.vercel.app/
 
 > ⚠️ **Backend Notice:** The backend is hosted on a free tier on Render. It may take a few moments to reinitiate. Please be patient if you experience slight delays.
 
@@ -735,6 +736,4 @@ This is an assignment project. No contributions accepted.
 
 ---
 
-**Live Demo:** [To be added after deployment]
 
-**Repository:** [To be added]
